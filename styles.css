@@ -7,37 +7,43 @@
   'opsz' 24
 }
 
-*{
+/* ------------- main container ------------- */
 
-  
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.main-cointainer{
+  width: 800px;
+  background-color: red;
+  display: flex;
 }
 
+/* ------------- menu ------------- */
 
 
+#menu{
+  background-color: white ;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 600px;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.sucursal{
+  margin-top: 40px;
+  text-align: center;
+  font-size: x-large;
+}
 
 a:hover{
   color: red;
 }
 
-.main-cointainer{
-  width: 1200px;
-}
-
-.menu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-
-
-}
-
 .logo{
-width: 300px;
+width: 180px;
 
 }
+
+/* ------------- main container ------------- */
+
 
 .lista{
   display: flex;
@@ -90,6 +96,21 @@ width: 300px;
   font-size: 20px;
 }
 
+/* ------------- SECCION PPAL ------------- */
+
+.mapa{
+  height: 160px;
+  width: 160px;
+}
+
+.ubicacion{
+  background-color: white;
+  width: 600px;
+}
+
+
+
+
 /* ------------- CSS General ------------- */
 * {
   margin: 0;
@@ -99,7 +120,7 @@ width: 300px;
 
 body {
   color: #5d6063;
-  background-color: #eaedf0;
+  background-color:red;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 16px;
 }
