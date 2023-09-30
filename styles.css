@@ -54,7 +54,7 @@ width: 300px;
 
 #donde{
   color: red;
-  margin right: 2px;
+  margin: 2px 0;
   
 }
 
@@ -248,3 +248,8 @@ footer {
     
     .form-row button {
         margin-left: 120px;}
+
+.greeting{
+  color: rgb(241, 171, 40);
+  background-color: #5d6063;
+}

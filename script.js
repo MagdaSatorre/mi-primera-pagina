@@ -194,8 +194,7 @@
 //listado1.append(listanueva);
 
 
-function mostrarClic() {
-    console.log('clic');
+function mostrarClic(lista) {
+    console.log(lista);
 }
-
 
