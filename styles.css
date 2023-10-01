@@ -13,6 +13,7 @@
   width: 800px;
   background-color: red;
   display: flex;
+  justify-content: space-around;
 }
 
 /* ------------- menu ------------- */
@@ -22,93 +23,173 @@
   background-color: white ;
   display: inline-flex;
   justify-content: space-around;
-  width: 600px;
-  height: 150px;
+  width: 700px;
+  height: 100px;
   margin-top: 15px;
+  margin-left: 60px;
+  margin-bottom: 10px;
 }
 
 .sucursal{
-  margin-top: 40px;
+  margin-top: 10px;
   text-align: center;
   font-size: x-large;
+  margin-right: 100px;
 }
 
-a:hover{
-  color: red;
-}
+
 
 .logo{
-width: 180px;
+width: 120px;
 
 }
 
-/* ------------- main container ------------- */
+/* ------------- header ------------- */
 
 
 .lista{
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
-  color: red;
+  justify-content: space-between;
+  list-style: none;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size:x-large;
-  width: 170px;
-
-
+  font-size:medium;
+  width: 300px;
+  height: 60px;
+  padding: 10px;
+  border: 3px solid gray;
+ 
 }
 
-#donde{
+.header .titulo ul li a{
+  color: rgb(7, 7, 122);
+  text-align: center;
+  margin-right: 10px;
+}
+
+
+
+.header .titulo ul li a:hover{
   color: red;
-  margin: 2px 0;
   
-}
-
-#contacto{
-  margin: 0 10px;
 }
 
 .header{
   display: flex;
-  justify-content: space-around;
-  background-color: red;
+  justify-content: space-between;
+  background-color: white;
   text-align: center;
-  width: 100%;
-  height: auto;
-  margin: 20;
+  width: 700px;
+  height: 90px;
+  margin-left: 60px;
+  
+  margin-bottom: 20px;
 
-
-
+  
 }
 
-.header .titulo{
-  font-size: 20px;
-  color: white;
-  text-align: center;
+
+#contacto{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 20px;
 }
 
-.header ul{
-  list-style: none;
-  padding: 4px;
-  margin: 0;
+#producto{
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+#donde{
+  text-align: center;
+  
+}
+
+/* ------------- se deja espacio cuando ambas clases que traigo no estan en el mismo nivel ------------- */
+/* ------------- el que va a la izquiera es el mas grande, o sea es el que contiene al de la der ------------- */
+
+/* ------------- si llamara 2 clases que estan en mismo nivel no se deja espacio ------------- */
+
+
+.titulo{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+
+ul{
+  
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 20px;
+  background-color: white;
+  width: 600px;
+  
+  
+
+  
 }
+
 
 /* ------------- SECCION PPAL ------------- */
 
-.mapa{
-  height: 160px;
-  width: 160px;
-}
+
 
 .ubicacion{
+  display: inline-block;
   background-color: white;
-  width: 600px;
+  width: 700px;
+  margin-left: 60px;
+}
+ .ubicacion .ubicacionh2{
+  margin: 20px;
+  
+ }
+
+ .ubicacion .mapa{
+  height: 200px;
+  width: 200px;
+  margin-left: 250px;
+  border: #5d6063 solid 3px;
+  
+
+ }
+
+ .ubicacion .mapa1 .french{
+  font-size:x-large;
+  margin-left: 20px;
+  margin-top: 10ox;
+  text-align: center;
+ }
+ 
+ .material-symbols-outlined{
+  margin-top: 20px;
+  margin-left: 40px;
+  display:inline-flex
+  
+
+ }
+ 
+
+ .mapa1{
+  float: right;
+ }
+/* ------------- contacto------------- */
+
+.contacto{
+  display: flex;
+  justify-content:flex-start;
+  background-color: white;
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 700px;
+  padding: 20px;
 }
 
-
+.contacto .escribinos{
+  margin-right: 40px;
+}
 
 
 /* ------------- CSS General ------------- */
