@@ -10,7 +10,7 @@
 /* ------------- main container ------------- */
 
 .main-cointainer{
-  width: 800px;
+  width: 1000px;
   background-color: red;
   display: flex;
   justify-content: space-around;
@@ -47,58 +47,80 @@ width: 120px;
 /* ------------- header ------------- */
 
 
-.lista{
+.bar-conteiner{
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  list-style: none;
+  justify-content: space-around;
+  text-align: center;
+  justify-items: center;
+ line-height: 30px;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size:medium;
-  width: 300px;
+  width: 700px;
   height: 60px;
   padding: 10px;
-  border: 3px solid gray;
+  text-decoration: none;
+  color: rgb(11, 11, 99);
+
  
 }
-
-.header .titulo ul li a{
-  color: rgb(7, 7, 122);
-  text-align: center;
-  margin-right: 10px;
+ 
+a{
+  text-decoration: none;
+  color: rgb(14, 14, 72);
 }
 
-
-
-.header .titulo ul li a:hover{
+a:hover{
   color: red;
-  
+}
+
+.donde{
+  border: #5d6063 solid 2px;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+ 
+}
+.contacto1{
+  border: #5d6063 solid 2px;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+}
+
+.producto{
+  border: #5d6063 solid 2px;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
 }
 
 .header{
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
+ 
+  background-color: rgb(196, 155, 155);
   text-align: center;
   width: 700px;
-  height: 90px;
-  margin-left: 60px;
-  
-  margin-bottom: 20px;
 
+  margin-left: 60px;
+  margin-bottom: 12px;
+  line-height: 90px;
   
 }
 
 
-#contacto{
+
+
+
+/*#contacto{
   margin-left: 50px;
   margin-right: 50px;
   padding-top: 20px;
 }
 
-#producto{
-  padding-right: 20px;
-  padding-top: 20px;
+#producto2{
+  text-align: center;
+  padding-right: 25px;
+  padding-top: 16px;
 }
 
 #donde{
@@ -112,24 +134,16 @@ width: 120px;
 /* ------------- si llamara 2 clases que estan en mismo nivel no se deja espacio ------------- */
 
 
-.titulo{
-  margin-left: 50px;
-  margin-top: 10px;
-}
 
 
-ul{
+
+
   
-  display: flex;
-  justify-content: space-between;
-  font-size: 20px;
-  background-color: white;
-  width: 600px;
   
   
 
   
-}
+
 
 
 /* ------------- SECCION PPAL ------------- */
@@ -189,6 +203,75 @@ ul{
 
 .contacto .escribinos{
   margin-right: 40px;
+}
+
+/* ------------- CAJA 1 2 Y 3 ------------- */
+
+.caja-ppal{
+  margin-top: 20px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+ 
+  align-content: center;
+  align-items:flex-start;
+  width: 800px;
+}
+
+.caja1{
+  background-color: white;
+  height: 100%;
+ margin-left: 20px;
+ 
+  padding: 10xp;
+  text-align: center;
+  padding-top: 20px;
+  flex: 1;
+}
+
+.caja1 .img1{
+  padding: 5px;
+  
+  border-radius: 40px;
+}
+
+.caja1 ul{
+  list-style: none;
+}
+
+.caja2{
+  background-color: white;
+ 
+  height: 100%;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 10px;
+
+  margin-right: 10px;
+  flex: 1;
+}
+
+.caja2 .img2{
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.caja2 ul{
+  list-style: none;
+}
+
+.caja3{
+  background-color: white;
+  height: 100%;
+ 
+  text-align: center;
+  padding-top: 20px;
+  flex: 1;
+}
+
+.caja3 .img3{
+  padding: 5px;
+  border-radius: 40px;
 }
 
 
