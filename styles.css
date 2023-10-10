@@ -7,6 +7,20 @@
   'opsz' 24
 }
 
+/* ------------- CSS General ------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background-color:red;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
 /* ------------- main container ------------- */
 
 .main-cointainer{
@@ -26,8 +40,11 @@
   width: 700px;
   height: 100px;
   margin-top: 15px;
-  margin-left: 60px;
+  margin-left: 160px;
   margin-bottom: 10px;
+  text-align: center;
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 }
 
 .sucursal{
@@ -35,6 +52,7 @@
   text-align: center;
   font-size: x-large;
   margin-right: 100px;
+  color: #474a4f;
 }
 
 
@@ -46,6 +64,12 @@ width: 120px;
 
 /* ------------- header ------------- */
 
+.main-cointainer{
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
 
 .bar-conteiner{
   display: flex;
@@ -61,6 +85,8 @@ width: 120px;
   padding: 10px;
   text-decoration: none;
   color: rgb(11, 11, 99);
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 
  
 }
@@ -101,43 +127,37 @@ a:hover{
   text-align: center;
   width: 700px;
 
-  margin-left: 60px;
+  margin-left: 160px;
   margin-bottom: 12px;
   line-height: 90px;
-  
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 }
 
+ /* barra de menu y hamburguesa
 
 
 
 
-/*#contacto{
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-top: 20px;
+
+
+  /* ------------- se deja espacio cuando ambas clases que traigo no estan en el mismo nivel ------------- */
+  /* ------------- el que va a la izquiera es el mas grande, o sea es el que contiene al de la der ------------- */
+
+  /* ------------- si llamara 2 clases que estan en mismo nivel no se deja espacio ------------- */
+
+
+.checkbtn{
+  font-size: 25px;
+  color: rgb(6, 6, 76);
+  cursor: pointer;
+  display: none;
+  float: right;
 }
 
-#producto2{
-  text-align: center;
-  padding-right: 25px;
-  padding-top: 16px;
+#check{
+  display: none;
 }
-
-#donde{
-  text-align: center;
-  
-}
-
-/* ------------- se deja espacio cuando ambas clases que traigo no estan en el mismo nivel ------------- */
-/* ------------- el que va a la izquiera es el mas grande, o sea es el que contiene al de la der ------------- */
-
-/* ------------- si llamara 2 clases que estan en mismo nivel no se deja espacio ------------- */
-
-
-
-
-
-
   
   
   
@@ -148,13 +168,18 @@ a:hover{
 
 /* ------------- SECCION PPAL ------------- */
 
-
+.sección-principal{
+  margin-left: 100px;
+  
+}
 
 .ubicacion{
   display: inline-block;
   background-color: white;
   width: 700px;
   margin-left: 60px;
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 }
  .ubicacion .ubicacionh2{
   margin: 20px;
@@ -199,6 +224,8 @@ a:hover{
   margin-top: 10px;
   width: 700px;
   padding: 20px;
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 }
 
 .contacto .escribinos{
@@ -209,46 +236,54 @@ a:hover{
 
 .caja-ppal{
   margin-top: 20px;
+  margin-left: 100px;
   background-color: red;
   display: flex;
+  
   justify-content: space-between;
- 
+
   align-content: center;
   align-items:flex-start;
-  width: 800px;
+  width: 600px
 }
 
 .caja1{
   background-color: white;
   height: 100%;
- margin-left: 20px;
+ margin-left: 0px;
  
   padding: 10xp;
   text-align: center;
   padding-top: 20px;
   flex: 1;
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 }
 
 .caja1 .img1{
   padding: 5px;
-  
+  height: 200px;
   border-radius: 40px;
 }
 
 .caja1 ul{
   list-style: none;
+  color: #202123;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .caja2{
   background-color: white;
  
-  height: 100%;
+  height: 535px;
   text-align: center;
   padding-top: 20px;
   margin-left: 10px;
 
   margin-right: 10px;
   flex: 1;
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 }
 
 .caja2 .img2{
@@ -258,36 +293,33 @@ a:hover{
 
 .caja2 ul{
   list-style: none;
+  color: #202123;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .caja3{
   background-color: white;
-  height: 100%;
- 
+  height: 535px;
+  padding: 20pz; 
   text-align: center;
   padding-top: 20px;
   flex: 1;
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 }
 
 .caja3 .img3{
+  margin-top: 20px;
   padding: 5px;
   border-radius: 40px;
 }
 
-
-/* ------------- CSS General ------------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.caja3 ul li{
+  list-style: none;
+  color: #202123;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
-  color: #5d6063;
-  background-color:red;
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
-}
 
 /* ------------- Encabezado Contacto ------------- */
 
@@ -306,6 +338,8 @@ footer {
   width: 80%;
   margin: 10px auto;
   padding: 50px;
+  border: #6e7276 solid 2px;
+  border-radius: 20px;
 }
 
 .form-header h1 {
@@ -437,4 +471,51 @@ footer {
 .greeting{
   color: rgb(241, 171, 40);
   background-color: #5d6063;
+}
+
+@media(max-width:650px) {
+  .sucursal{
+    color: red;
+    width: 45%;
+  }
+}
+
+@media(max-width:650px) {
+  body{
+    background-color: rgb(245, 195, 195);
+  }
+}
+
+@media(max-width:650px) {
+  .bar-conteiner{
+    background-color: rgb(244, 131, 131);
+    
+  }
+  .checkbtn{
+    display: block;
+  }
+
+
+  .header #nav1{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: white;
+    top: 180px;
+    left: 100%;
+    transition: all 0.5s;
+  }
+  #check:checked ~ #nav1{
+    left: 0;
+    display: block;
+  }
+  #nav1{
+    display: block;
+    margin: 500px 0;
+    line-height: 30px;
+  }
+
+  
+
+
 }
